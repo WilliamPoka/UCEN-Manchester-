@@ -1,0 +1,73 @@
+<!--WHY IS THE NOTE SYSTEM NOT JUST HASHTAGS WHO DECIDED TO MAKE IT DIFFERENT-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poka's BOOKSTORE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Poka's Book Finder 📚🔎</h1>
+    </header>
+
+    <main>
+        <section id="preference-form">
+            <h2>Find the coolest books 🤓</h2>
+            <form id="book-form">
+                <!-- THE GENRES! MANGA AND FANTASY ARE THE BEST! im not a nerd bro -->
+                <div class="filter-box">
+                    <label for="genre">Genre:</label>
+                    <select id="genre" name="genre" required>
+                        <option value="any">All Genres</option>
+                        <option value="">Select a genre</option>
+                        <option value="manga">Manga</option>
+                        <option value="sci-fi">Science Fiction</option>
+                        <option value="horror">Horror</option>
+                        <option value="true-crime">True Crime</option>
+                        <option value="fantasy">Fantasy</option>
+                    </select>
+                </div>
+            
+                <!-- the writers, eichiro oda has been drawing one piece for almost 3 decades 😭😭 -->
+                <div class="filter-box">
+                    <label for="author">Author:</label>
+                    <input type="text" id="author" name="author" placeholder="Any author">
+                </div>
+            
+                <!-- THE MONEY 🤑🤑🤑🤑 money money money, its so funny IN A RICH MANS WORLD -->
+                <div class="filter-box">
+                    <label for="price">Price Range:</label>
+                    <select id="price" name="price">
+                        <option value="any">Any price</option>
+                        <option value="0-10">Under £10</option>
+                        <option value="10-20">£10 - £20</option>
+                        <option value="20+">Over £20</option>
+                    </select>
+                </div>
+            
+                <button type="submit">Find Books</button>
+            </form>
+            
+        </section>
+
+        <section id="results" class="hidden">
+            <h2>Recommended Books 😉👍</h2>
+            <div id="book-results"></div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
+<!-- 
+LINKS FOR LATER
+This isnt important stuff just videos i used and struff to come back to later in case i dont do this in one long ahh sitting
+https://www.youtube.com/watch?v=xvFZjo5PgG0 press this link its safe i promise. 
+https://www.youtube.com/watch?v=1iysNUrI3lw this is the video for fuzzy searching im just saving it here to come back to later
+Apparantly theres fuzzy searching in code camp but it didnt let me skip to it 👺
+https://sumn2u.medium.com/string-similarity-comparision-in-js-with-examples-4bae35f13968 - more fuzzy search shoot
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes - fuzzy stuff
+
+-->

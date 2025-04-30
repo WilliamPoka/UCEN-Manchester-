@@ -1,0 +1,18 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+input, select, button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+}
+
+/* THIS IS important for toggling or something ike that idk ask the video */
+.hidden {
+    display: none;
+}
+/* VERDANA IS BEST FONT! ARGUE WITH A WALL! */
